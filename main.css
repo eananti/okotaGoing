@@ -23,12 +23,17 @@ p {
 }
 
 .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: #241e40;
+    color: white;
 }
 
 .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #90caf8;
+    color: #555555;
+}
+
+.bg-5 { 
+    background-color: #241e40;
     color: #fff;
 }
 
@@ -65,4 +70,15 @@ p {
 
 #aboutPara {
     margin-top: 50px;
+}
+
+#social {
+    margin-right: 50px;
+}
+
+#secondButton {
+    margin: 40px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
 }

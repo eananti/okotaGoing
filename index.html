@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="main.css">
     </head>
 
@@ -75,29 +76,52 @@
         </div>
 
         <!-- Third Container -->
-        <div class="container-fluid bg-1 text-center">
+        <div class="container-fluid bg-3 text-center">
             <h3 class="margin">Meet The Team</h3>
         </div>
       
         <!-- Fourth Container (Grid) -->
-        <div class="container-fluid bg-3 text-center">    
-            <h3 class="margin">Contact</h3><br>
+        <div class="container-fluid bg-4">
             <div class="row">
-                <div class="col-sm-4">
-                    
+                <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                    <h2>Collaborate with &#60;/Us&#62;</h2>
+                    <br>
+                    <div style="color:blueviolet;">
+                        <p style="font-size: 30px;">Interested in meeting up with US?</p>
+                    </div>
+                    <form>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        <br><br>
+                        <div class="input-group">
+                            <span class="input-group-addon">Text</span>
+                            <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info" style="height: 100px;">
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-default" id="secondButton">Submit</button>
                 </div>
-                <div class="col-sm-4"> 
-                    
-                </div>
-                <div class="col-sm-4"> 
-                    
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <img src="preview-collaboration.jpg" class="img-responsive" alt="team" id="image1">
                 </div>
             </div>
         </div>
       
         <!-- Footer -->
-        <footer class="container-fluid bg-4 text-center">
-            <p>Theme By <a href="https://mrnati.github.io/onlineResume/">Mr Nati</a>. Powered by GitHub.</p> 
+        <footer class="container-fluid bg-5 text-center">
+            <p>Kindly Connect With Us</p>
+            <ul id="social">
+                <i class="fa fa-facebook" style="font-size:24px"></i>
+                <i class="fa fa-twitter" style="font-size:24px"></i>
+                <i class="fa fa-github" style="font-size:24px"></i>
+            </ul>
+            <p>Theme By <a href="https://mrnati.github.io/onlineResume/">Mr Nati</a>. Powered by GitHub. Copyright 2018 &#169;</p>
         </footer>
     </body>
 
