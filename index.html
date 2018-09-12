@@ -90,29 +90,61 @@
         <div class="container-fluid bg-4">
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6 text-center">
-                    <h2>Collaborate with &#60;/Us&#62;</h2>
-                    <br>
-                    <div style="color:blueviolet;">
-                        <p style="font-size: 30px;">Interested in meeting up with US?</p>
-                    </div>
-                    <form>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
-                        </div>
-                        <br>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
-                        </div>
-                        <br><br>
-                        <div class="input-group">
-                            <span class="input-group-addon">Text</span>
-                            <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info" style="height: 100px;">
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-default" id="secondButton">Submit</button>
-                </div>
+                    <form id="contact-form" method="post" action="#" role="form">
+
+						<div class="messages" style="color:#fff"><h1>Contact us</h1></div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_name">Firstname *</label>
+									<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_lastname">Lastname *</label>
+									<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_email">Email *</label>
+									<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="form_need">Please specify your need *</label>
+									<select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+										<option value=""></option>
+										<option value="Request quotation">Request quotation</option>
+										<option value="Request order status">Request order status</option>
+										<option value="Request copy of an invoice">Request copy of an invoice</option>
+										<option value="Other">Other</option>
+									</select>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="form_message">Message *</label>
+									<textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="10" required="required" data-error="Please, leave us a message."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<input type="submit" class="btn btn-send" value="Send message" style="background-color:#241e40;color:#fff">
+							</div>
+						</div>
+					</form>
+				</div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <img src="preview-collaboration.jpg" class="img-responsive" alt="team" id="image1">
                 </div>
