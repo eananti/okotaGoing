@@ -82,3 +82,10 @@ p {
     height: 40px;
     font-size: 20px;
 }
+
+#logo {
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 10px;
+}
