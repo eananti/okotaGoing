@@ -4,7 +4,7 @@ body {
     color: #f5f6f7;
 }
 
-p {
+p, label {
     font-size: 16px;
 }
 
