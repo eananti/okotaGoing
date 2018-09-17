@@ -118,3 +118,35 @@ p, label {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#dotRelative {
+    position: relative;
+    top: 1px;
+}
+
+.spacingMobile {
+    margin-right: 40px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.spacingLinksMobile {
+    padding: 20px;
+}
+
+.spacing {
+    margin-right: 40px;
+    position: relative;
+    top: 1px;
+}
