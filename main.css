@@ -72,7 +72,7 @@ p, label {
     margin-top: 50px;
 }
 
-#social {
+#socialFooter {
     margin-right: 50px;
 }
 
@@ -135,7 +135,7 @@ p, label {
 }
 
 .spacingMobile {
-    margin-right: 40px;
+    margin-right: 10px;
     position: relative;
     bottom: 15px;
 
@@ -149,4 +149,9 @@ p, label {
     margin-right: 40px;
     position: relative;
     top: 1px;
+}
+
+.spacingArrowLinks {
+    position: relative;
+    top: 20px;
 }
