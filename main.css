@@ -29,7 +29,7 @@ p, label {
 
 .bg-4 { 
     background-color: #90caf8;
-    color: #555555;
+    color: #241e40;
 }
 
 .bg-5 { 
@@ -77,9 +77,12 @@ p, label {
 }
 
 #secondButton {
-    width: 100px;
+    width: 70px;
     height: 40px;
-    font-size: 20px;
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+    background-color: #241e40;
 }
 
 #logo {
