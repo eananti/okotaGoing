@@ -339,8 +339,14 @@
                 <a href="https://www.facebook.com/okotadevs/"><i class="fa fa-facebook" style="font-size:24px; padding-left: 10px; padding-right: 10px;"></i></a>
                 <i class="fa fa-github" style="font-size:24px"></i>
             </ul>
-            <p>Theme By <a href="https://mrnati.github.io/onlineResume/">Mr Nati</a>. Powered by GitHub. Copyright 2018 &#169;</p>
+            <p>Theme By <a href="https://mrnati.github.io/onlineResume/">Mr Nati</a>. Powered by GitHub. Copyright <span id="copyright"></span> &#169;</p>
         </footer>
+
+        <script>
+            const footerYear = new Date();
+
+            document.getElementById('copyright').innerHTML = footerYear.getFullYear();
+        </script>
     </body>
 
 </html>
